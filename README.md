@@ -13,3 +13,8 @@ when the user has free time.
 - Program Frontend
 - Program Backend
 - Documentation 
+
+#### Team Members
+- Brendan Gibbons
+- Patrick Kelly
+- Michael Peterson

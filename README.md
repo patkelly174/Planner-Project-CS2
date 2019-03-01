@@ -10,4 +10,6 @@ Our planner will include an address book, calendar, to-do list, and a tool to de
 when the user has free time.
 
 ### Deliverables 
-Program Frontend, Program Backend, Documentation 
+- Program Frontend
+- Program Backend
+- Documentation 

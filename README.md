@@ -5,9 +5,11 @@ Making a planner program for final project in CS2
 # Project Name: Planner
 
 # Project Description
-The goal of the project is to make a planner which helps the user organize their life. 
-Our planner will include an address book, calendar, to-do list, and a tool to determine
-when the user has free time.
+The goal of our project is to create a planner which is utilized to help the user organize their life.
+The program will include a calendar, contact sheet, to-do list, and a tool which can help the user determine
+when they have free time. This free time tool will analyze when the user does not have anything planned, and
+it can suggest what to do.
+
 
 # Deliverables 
 - Program Frontend

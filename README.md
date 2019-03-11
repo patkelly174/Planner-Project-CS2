@@ -20,10 +20,10 @@ when the user has free time.
 - Michael Peterson
 
 # Plan
-March 11th -> March 17th : Discuss avenues for alayout for calander/to-do program
-March 17th -> March 24th : Start work on backend development 
-March 25th -> March 31st : Continue work on backend development
-April 1st -> April 7th : Continue any more work on backend and start working on frontend devleopment
-April 8th -> Project End : Finish frontend work and check over work
+- March 11th -> March 17th : Discuss avenues for alayout for calander/to-do program
+- March 17th -> March 24th : Start work on backend development 
+- March 25th -> March 31st : Continue work on backend development
+- April 1st -> April 7th : Continue any more work on backend and start working on frontend devleopment
+- April 8th -> Project End : Finish frontend work and check over work
 
 

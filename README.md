@@ -17,9 +17,9 @@ it can suggest what to do.
 - Documentation 
 
 # Team Members
-- Brendan Gibbons
-- Patrick Kelly
-- Michael Peterson
+- Brendan Gibbons - Graphic Interface Design
+- Patrick Kelly - Frontend Developer
+- Michael Peterson - Backend Developer
 
 # Plan
 - March 11th -> March 17th : Discuss avenues for alayout for calander/to-do program

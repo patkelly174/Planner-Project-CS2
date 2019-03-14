@@ -2,11 +2,11 @@ Class Design
 
 
 (Classes)
-Calander
+Calendar
 To-Do List
 Free Time
 
-(Calander)
+(Calendar)
 getCurrentDate
 setNewEvent
 getEvents

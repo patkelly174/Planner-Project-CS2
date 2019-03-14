@@ -1,5 +1,6 @@
 Class Design
 
+
 (Classes)
 Calander
 To-Do List
@@ -12,15 +13,14 @@ getEvents
 markComplete
 setUrgent
 addEventValidate
-remove
-
+removeEvent
 
 (To-Do List)
 setNewTask
 getTasks
 markComplete
 setUrgent
-remove
+removeTask
 setNoDueDate
 addTaskValidate
 
@@ -29,3 +29,11 @@ getCurrentDate
 checkAvailible
 suggestTime
 setNewEvent
+
+(Similarities) 
+getCurrentDate
+setNewEvent & setNewTask
+markComplete
+setUrgent
+addEventValidate & addTaskValidate
+removeEvent & removeTask

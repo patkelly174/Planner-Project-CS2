@@ -1,0 +1,31 @@
+Class Design
+
+(Classes)
+Calander
+To-Do List
+Free Time
+
+(Calander)
+getCurrentDate
+setNewEvent
+getEvents
+markComplete
+setUrgent
+addEventValidate
+remove
+
+
+(To-Do List)
+setNewTask
+getTasks
+markComplete
+setUrgent
+remove
+setNoDueDate
+addTaskValidate
+
+(Free Time)
+getCurrentDate
+checkAvailible
+suggestTime
+setNewEvent

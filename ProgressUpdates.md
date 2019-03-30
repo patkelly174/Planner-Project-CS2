@@ -28,3 +28,20 @@
 
 ### Any blocking issues/challenges need to be addressed?
 - Had to make changes to UML Classes design based on in-class feedback
+
+## Week 3 (Mar 24 - Mar 30)
+
+### What did your team do last week?
+- Finalized UML Class Design
+- Got a vailidation method working
+- Neared completion of to do
+
+### What will you do this week?
+- Finish the To Do method
+- Start work on UI
+- Start the calender method in project
+
+### Any blocking issues/challenges need to be addressed?
+- Difficulty finding time to work on project
+
+

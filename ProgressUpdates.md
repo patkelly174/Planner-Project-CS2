@@ -33,13 +33,13 @@
 
 ### What did your team do last week?
 - Finalized UML Class Design
-- Got a vailidation method working
+- Got a validation method to start working
 - Neared completion of to do
 
 ### What will you do this week?
-- Finish the To Do method
+- Finish the To-Do method
 - Start work on UI
-- Start the calender method in project
+- Start the calendar method in project
 
 ### Any blocking issues/challenges need to be addressed?
 - Difficulty finding time to work on project

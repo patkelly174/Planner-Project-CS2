@@ -1,4 +1,6 @@
+package calendar;
 import java.net.URL;
+import java.time.YearMonth;
 import java.util.Random;
 import java.util.ResourceBundle;
 
@@ -52,9 +54,11 @@ public class Menu extends Application implements Initializable{
 			public void handle(ActionEvent eventl) {
 			Stage stage = new Stage();
 			//stage.setTitle("Calender");
-			stage.setScene(new Scene(new Button("Calender"), 400, 300));
-			stage.show();			
-		}});
+		     stage.setTitle("Full Calendar");
+		     stage.setScene(new Scene(new FullCalendarView(YearMonth.now()).getView()));
+		     stage.show();
+		    }			
+		});
 		
 		todo.setOnAction(new EventHandler<ActionEvent>() {
 		@Override

@@ -44,4 +44,19 @@
 ### Any blocking issues/challenges need to be addressed?
 - Difficulty finding time to work on project
 
+## Week 4 (Mar 31 - Apr 6)
+
+### What did your team do last week?
+- Made lots of progress on To-Do List
+- Continued work on user interface for application
+- Begun work on calendar class
+
+### What will you do this week?
+- Made progress on user interface for calendar, monthly view is available
+- To-Do List is functional with UI and events
+
+### Any blocking issues/challenges need to be addressed?
+- Difficulty implementing events for calendar class
+- Difficulty figuring out how to implement "Free Time" tool.
+
 

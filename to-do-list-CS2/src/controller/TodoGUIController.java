@@ -20,6 +20,7 @@ import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
 import javafx.scene.control.Button;
 import javafx.scene.control.CheckBox;
 import javafx.scene.control.DatePicker;
@@ -28,6 +29,7 @@ import javafx.scene.control.ListView;
 import javafx.scene.control.SplitPane;
 import javafx.scene.control.TextField;
 import javafx.scene.input.MouseEvent;
+import javafx.scene.layout.AnchorPane;
 import javafx.scene.paint.Color;
 
 import model.AppData;
@@ -54,8 +56,7 @@ public class TodoGUIController {
 	private ListView<TodoTask> taskListDone;
 	@FXML
 	private CheckBox noDueDateCheckbox;
-	@FXML
-	private SplitPane splitPane;
+
 
 	ObservableList<TodoTask> todolist = FXCollections.observableArrayList();
 	ObservableList<TodoTask> todolistdone = FXCollections.observableArrayList();
@@ -111,17 +112,14 @@ public class TodoGUIController {
 
 		if (task != null) {
 			if (task.isCompleted()) {
-				if (task.getDueDate() != null && task.getDueDate().isBefore(LocalDate.now())) {
-					errorMsg("Cannot mark a task as incomplete if it's past the due date");
-					return;
-				}
 				todolistdone.remove(task);
 				todolist.add(task);
 				task.setCompleted(false);
 				task.setCompletionDate(null);
 				sortListByDate(todolist);
 				taskList.setItems(todolist);
-			} else {
+			} 
+			else {
 				todolist.remove(task);
 				todolistdone.add(task);
 				task.setCompleted(true);
@@ -163,7 +161,6 @@ public class TodoGUIController {
 
 		completeButton.setDisable(todolist.isEmpty());
 		deleteButton.setDisable(todolist.isEmpty());
-//		taskListDone.getSelectionModel().clearSelection();
 	}
 
 	@FXML
@@ -188,14 +185,6 @@ public class TodoGUIController {
 		datePicker.setValue(LocalDate.now());
 		toggleButtons(todolist.isEmpty() && todolistdone.isEmpty());
 
-//		Divider divider = splitPane.getDividers().get(0);
-//		divider.positionProperty().addListener(new ChangeListener<Number>() {
-//			@Override
-//			public void changed(ObservableValue<? extends Number> observable, Number oldvalue, Number newvalue) {
-//				divider.setPosition(0.5);
-//			}
-//		});
-
 		loadAppData();
 
 		// saves events for when application is closed
@@ -205,9 +194,6 @@ public class TodoGUIController {
 				saveAppData();
 			}
 		});
-
-//		taskList.getSelectionModel().clearSelection();
-//		taskListDone.getSelectionModel().clearSelection();
 	}
 
 	private void errorMsg(String text) {

@@ -3,6 +3,7 @@ package controller;
 import java.io.FileInputStream;
 
 
+
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -20,7 +21,6 @@ import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.fxml.FXMLLoader;
 import javafx.scene.control.Button;
 import javafx.scene.control.CheckBox;
 import javafx.scene.control.DatePicker;
@@ -29,7 +29,6 @@ import javafx.scene.control.ListView;
 import javafx.scene.control.SplitPane;
 import javafx.scene.control.TextField;
 import javafx.scene.input.MouseEvent;
-import javafx.scene.layout.AnchorPane;
 import javafx.scene.paint.Color;
 
 import model.AppData;
@@ -61,6 +60,8 @@ public class TodoGUIController {
 	ObservableList<TodoTask> todolist = FXCollections.observableArrayList();
 	ObservableList<TodoTask> todolistdone = FXCollections.observableArrayList();
 
+
+	
 	@FXML
 	void addNewTask(ActionEvent event) {
 		if (addTaskValidate()) {
@@ -85,9 +86,8 @@ public class TodoGUIController {
 	}
 
 	private void addTaskCommit() {
-
-		todolist.add(
-				new TodoTask(descriptionText.getText(), (noDueDateCheckbox.isSelected() ? null : datePicker.getValue())));
+		TodoTask test = new TodoTask(descriptionText.getText(), (noDueDateCheckbox.isSelected() ? null : datePicker.getValue()));
+		todolist.add(test);
 		sortListByDate(todolist);
 		taskList.setItems(todolist);
 		descriptionText.setText("");
@@ -145,7 +145,7 @@ public class TodoGUIController {
 	@FXML
 	void doneListClicked(MouseEvent event) {
 		if (!todolistdone.isEmpty()) {
-			completeButton.setText("Move to incomplete");
+			completeButton.setText("Incomplete");
 		}
 
 		completeButton.setDisable(todolistdone.isEmpty());

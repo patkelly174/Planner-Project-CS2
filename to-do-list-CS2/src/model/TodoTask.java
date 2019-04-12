@@ -16,8 +16,6 @@ public class TodoTask implements Serializable {
 		this.completionDate = null;
 		this.completed = false;
 	}
-
-
 	
 	public boolean isCompleted() {
 		return completed;
@@ -64,9 +62,9 @@ public class TodoTask implements Serializable {
 		}
 
 		if (completed) {
-			return finishedDateArray[2] + "/" + finishedDateArray[1] + "/" + finishedDateArray[0] + " | " + description + ((addDateArray == null) ? "" : "   (due " + addDateArray[2] + "/" + addDateArray[1] + "/" + addDateArray[0] + ")");
+			return finishedDateArray[1] + "/" + finishedDateArray[2] + "/" + finishedDateArray[0] + " | " + description + ((addDateArray == null) ? "" : "   (due " + addDateArray[1] + "/" + addDateArray[2] + "/" + addDateArray[0] + ")");
 		} else {
-			return ((addDateArray == null) ? "" : addDateArray[2] + "/" + addDateArray[1] + "/" + addDateArray[0] + " | ") + description;
+			return ((addDateArray == null) ? "" : addDateArray[1] + "/" + addDateArray[2] + "/" + addDateArray[0] + " | ") + description;
 		}
 	}
 }

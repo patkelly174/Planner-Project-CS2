@@ -1,11 +1,12 @@
 package controller;
 
+
 import java.io.IOException;
 import java.net.URL;
+import java.time.LocalDate;
 import java.time.YearMonth;
 import java.util.ResourceBundle;
 
-import calendar.Controller;
 import calendar.FullCalendarView;
 import javafx.application.Application;
 import javafx.event.ActionEvent;
@@ -16,7 +17,8 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-public class Main extends Application implements Initializable {
+
+public class Main extends Application {
 	@FXML
 	Stage window;
 	@FXML
@@ -43,15 +45,17 @@ public class Main extends Application implements Initializable {
 
 		FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("TodoGUI.fxml"));
 		Parent root1 = (Parent) fxmlLoader.load();
+		
 		Stage stage = new Stage();
 		stage.setTitle("ToDoList");
 		stage.setScene(new Scene(root1));
 		stage.show();
 
+
 	}
 
 	@FXML
-	private void sceneHandlerCalendar(ActionEvent event) throws IOException {
+	private void sceneHandlerCalendar(ActionEvent event) throws IOException, ClassNotFoundException {
 
 		Stage stage = new Stage();
 		stage.setTitle("Full Calendar");
@@ -64,8 +68,5 @@ public class Main extends Application implements Initializable {
 		launch(args);
 	}
 
-	@Override
-	public void initialize(URL location, ResourceBundle resources) {
 
-	}
 }

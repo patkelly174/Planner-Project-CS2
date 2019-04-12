@@ -20,7 +20,6 @@ public class AnchorPaneNode extends AnchorPane {
         super(children);
         // Add action handler for mouse clicked
         this.setOnMouseClicked(e -> System.out.println("This pane's date is: " + date));
-        //use to add events into select spots 
         // adapt from To Do list
     }
 

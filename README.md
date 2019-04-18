@@ -28,4 +28,4 @@ it can suggest what to do.
 - April 1st -> April 7th : Continue any more work on backend and start working on frontend devleopment
 - April 8th -> Project End : Finish frontend work and check over work
 
-
+## Getting Started 

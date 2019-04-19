@@ -32,15 +32,16 @@ it can suggest what to do.
 ### Install
 1. Navigate to GitHub master branch for planner project
 2. Click on planner.jar and download file
-*Alternative: Download master branch as zip file and import project folder into eclipse ad run main.java*
+
 
 ### Run 
-1. If downlaoded planner.jar then move the file to its own folder of any name and double click to start program.
+1. Move planner.jar to its own folder of any name and double click to start program.
 
 ### Features 
 - To-Do List with the ability to add tasks with any date from present day on or no due date at all
 - Seperate columns from imcomplete and complete tasks
 - Save file that will keep all tasks the user has added even after program closes.
+- 
 
 ### Demo Video
 https://youtu.be/ofcLhTn4Zfc

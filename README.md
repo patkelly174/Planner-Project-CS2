@@ -1,7 +1,6 @@
 # Planner-Project-CS2
 Making a planner program for final project in CS2
 
-
 # Project Name: Planner
 
 # Project Description
@@ -38,10 +37,11 @@ it can suggest what to do.
 1. Move planner.jar to its own folder of any name and double click to start program.
 
 ### Features 
-- To-Do List with the ability to add tasks with any date from present day on or no due date at all
+- To-Do List with the ability to add tasks with any date from present day on or no due date at all.
 - Seperate columns from imcomplete and complete tasks
 - Save file that will keep all tasks the user has added even after program closes.
-- 
+- Ability to mark tasks as completed or incomplete (if previously marked complete).
+- Calendar to use as a template to plan tasks that need to be completed.
 
 ### Demo Video
 https://youtu.be/ofcLhTn4Zfc

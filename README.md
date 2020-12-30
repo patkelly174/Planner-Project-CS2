@@ -14,7 +14,7 @@ https://youtu.be/ofcLhTn4Zfc
 Updated Video (Made April 2019): https://youtu.be/Nmbykx4sg5E
 
 # Attention!
-Files were recently uploaded (Dec 2020) but all code was written in Spring 2019. Just never uploaded the code that was written for extra credit in April 2019
+Files that are currently uploaded to GitHub do not have a working calendar. Code that got calendar working was lost. However the updated video shows calendar working.
 
 # Deliverables 
 - Program Frontend

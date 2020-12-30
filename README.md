@@ -9,6 +9,12 @@ The program will include a calendar, contact sheet, to-do list, and a tool which
 when they have free time. This free time tool will analyze when the user does not have anything planned, and
 it can suggest what to do. We will try to make this happen by using the programming skills learned through the year as well and skills learned previously and skills we learn while researching how to efficently complete our project.
 
+### Demo Video
+https://youtu.be/ofcLhTn4Zfc
+Updated Video (Made April 2019): https://youtu.be/Nmbykx4sg5E
+
+# Attention!
+Files were recently uploaded (Dec 2020) but all code was written in Spring 2019. Just never uploaded the code that was written for extra credit in April 2019
 
 # Deliverables 
 - Program Frontend
@@ -32,7 +38,6 @@ it can suggest what to do. We will try to make this happen by using the programm
 1. Navigate to GitHub master branch for planner project
 2. Click on planner.jar and download file
 
-
 ### Run 
 1. Move planner.jar to its own folder of any name and double click to start program.
 
@@ -43,5 +48,3 @@ it can suggest what to do. We will try to make this happen by using the programm
 - Ability to mark tasks as completed or incomplete (if previously marked complete).
 - Calendar to use as a template to plan tasks that need to be completed.
 
-### Demo Video
-https://youtu.be/ofcLhTn4Zfc

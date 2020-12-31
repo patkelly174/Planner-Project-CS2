@@ -23,7 +23,7 @@ Files that are currently uploaded to GitHub do not have a working calendar. Code
 
 # Team Members
 - Brendan Gibbons - Graphic Interface Design
-- Patrick Kelly - Frontend Developer
+- Patrick Kelly - Frontend/Backend Developer
 - Michael Peterson - Backend Developer
 
 # Plan
